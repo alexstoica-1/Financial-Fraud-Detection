@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The first thing we must do is gather a basic sense of our data. Remember, except for the transaction and amount we don't know what the other columns are (due to privacy reasons). The only thing we know is that those columns that are unknown have been scaled already.
+The features are scaled and the names of the features are not shown due to privacy reasons. Nevertheless, we can still analyze some important aspects of the dataset. The first thing we must do is gather a basic sense of our data. Except for the transaction and amount we don't know what the other columns are.
 
-- The transaction amount is relatively small. The mean of all the mounts made is approximately USD 88.
+- The mean of all the amounts made is approximately USD 88, which is relatively small.
 - There are no "Null" values, so we don't have to work on ways to replace values.
 - Most of the transactions were Non-Fraud (99.83%) of the time, while Fraud transactions occurred (017%) of the time in the data frame.
 
@@ -20,6 +20,10 @@ The first thing we must do is gather a basic sense of our data. Remember, except
 ### Anomaly Detection
 
 ## Testing
+
+### Logistic Regression
+
+### Neural Networks
 
 ## Insights 
 
