@@ -1,6 +1,6 @@
-## Financial-Fraud-Detection
+# Financial Fraud Detection System
 
-# Introduction
+## Introduction
 
 The first thing we must do is gather a basic sense of our data. Remember, except for the transaction and amount we don't know what the other columns are (due to privacy reasons). The only thing we know is that those columns that are unknown have been scaled already.
 
@@ -9,5 +9,18 @@ The first thing we must do is gather a basic sense of our data. Remember, except
 - Most of the transactions were Non-Fraud (99.83%) of the time, while Fraud transactions occurred (017%) of the time in the data frame.
 
 
-# Preprocessing
--Dat
+## Preprocessing
+
+### Scaling and Distributing 
+
+### Splitting the data
+
+## Random UnderSampling and Oversampling
+
+### Anomaly Detection
+
+## Testing
+
+## Insights 
+
+## Recommendations 
