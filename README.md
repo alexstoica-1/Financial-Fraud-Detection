@@ -1,5 +1,9 @@
 # Financial Fraud Detection System
 
+## Dataset
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 ## Introduction
 
 Recognizing fraudulent activity is extremely important for credit card companies because they want to protect their customers and their financial interests. 
