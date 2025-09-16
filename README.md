@@ -1,7 +1,5 @@
 # Financial Fraud Detection System
 
-## Usage
-
 ## Dataset
 
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
@@ -18,43 +16,23 @@ The chosen dataset contains transactions made by credit card holders from Europe
 
 
 ## Exploratory Data Analysis (EDA)
-### Data Distribution
-### Correlation Analysis
-### Class Imbalance Visualization
 
 
 ## Handling Class Imbalance
-### Random Undersampling
-### Random Oversampling
+### Random UnderSampling vs OverSampling
 ### SMOTE (Synthetic Minority Oversampling Technique)
 
 
 ## Data Preprocessing
-### Missing Values
-### Scaling / Normalization
-### Train-Test Split
-
 
 ## Model Selection & Training
 ### Logistic Regression
-### Decision Trees & Random Forest
-### Gradient Boosting (XGBoost, LightGBM, CatBoost)
+### Decision Trees
+### Support Vector Classifier
 ### Neural Networks
 
 
 ## Evaluation Metrics
-### Confusion Matrix
-### Precision, Recall, F1-Score
-### ROC Curve & AUC
-### PR Curve
-
-
-## Hyperparameter Tuning
-### Grid Search
-### Random Search
-
-
-## Model Comparison
 
 
 ## Results
@@ -72,10 +50,9 @@ financial-fraud-detection/
 ├─ .gitignore                 # Ignored Files
 ├─ data/                      # Data
 │  ├─ raw/                    # Raw Data 
-├─ notebooks/                 # Jupyter notebooks for exploration
-├─ experiments/               # Logs, results, and plots
-├─ models/                    # Saved model artifacts
-├─ tests/                     # Unit and integration tests
-└─ docs/                      # Additional documentation
+│  ├─ splits/                 # Splitted data
+├─ notebooks/                 # Jupyter notebooks
+├─ models/                     # Model Artifacts
+└─ tests/                     # Integration tests
 ```
 

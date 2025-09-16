@@ -1,2 +1,4 @@
 data/*
 !data/.gitkeep
+!data/raw/.gitkeep
+!data/splits/.gitkeep
